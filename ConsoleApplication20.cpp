@@ -22,15 +22,4 @@ int main()
         cout << 0;
         return 0;
     }
-    else
-    {
-        amount = 0;
-        auto sub_it = min_it;
-        for (auto it = ++sub_it; *it != *min_it; it++)
-        {
-            amount++;
-        }
-        cout << amount;
-        return 0;
-    }
 }
